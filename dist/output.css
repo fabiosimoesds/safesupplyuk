@@ -653,6 +653,10 @@ video {
   height: 100%;
 }
 
+.min-h-screen {
+  min-height: 100vh;
+}
+
 .w-auto {
   width: auto;
 }
@@ -663,6 +667,18 @@ video {
 
 .max-w-3xl {
   max-width: 48rem;
+}
+
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
+.basis-auto {
+  flex-basis: auto;
 }
 
 .grid-cols-1 {
