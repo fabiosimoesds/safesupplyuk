@@ -1,12 +1,12 @@
-# Marino Supply Website
+# Safe Supply UK Website
 
-A static website for Marino Supply, featuring multiple product categories and built with Tailwind CSS.
+A static website for Safe Supply UK, featuring multiple product categories and built with Tailwind CSS.
 
 ## Setup Instructions
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/fabiosimoesds/marino-supply-website.git
+   git clone https://github.com/fabiosimoesds/safesupplyuk.git
    ```
 
 2. Install dependencies:
@@ -46,7 +46,7 @@ npm run build
 2. Make sure your HTML files are linking to the correct CSS path:
 ```html
 <!-- Update your CSS path to be relative to the repository root -->
-<link href="/marino-supply-website/dist/output.css" rel="stylesheet">
+<link href="/dist/output.css" rel="stylesheet">
 ```
 
 3. Commit all files including the `dist` folder:
@@ -62,7 +62,7 @@ git push
 - Choose "main" branch and "/ (root)"
 - Click Save
 
-Your site will be available at: `https://fabiosimoesds.github.io/marino-supply-website`
+Your site will be available at: `https://fabiosimoesds.github.io/safesupplyuk`
 
 **Note**: Make sure the `dist` folder is not in your `.gitignore` file, as GitHub Pages needs the built CSS file.
 
