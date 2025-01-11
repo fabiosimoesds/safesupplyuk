@@ -1,0 +1,17 @@
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <pattern id="geometric-pattern" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse">
+            <path d="M0 0h100v100H0z" fill="none"/>
+            <circle cx="50" cy="50" r="20" fill="none" stroke="#ffffff" stroke-width="1"/>
+            <circle cx="50" cy="50" r="10" fill="#ffffff"/>
+            <path d="M0 0l50 50M100 0L50 50M0 100l50-50M100 100L50 50" stroke="#ffffff" stroke-width="0.5"/>
+            <rect x="48" y="48" width="4" height="4" fill="#ffffff"/>
+            <circle cx="0" cy="0" r="5" fill="#ffffff"/>
+            <circle cx="100" cy="0" r="5" fill="#ffffff"/>
+            <circle cx="0" cy="100" r="5" fill="#ffffff"/>
+            <circle cx="100" cy="100" r="5" fill="#ffffff"/>
+            <path d="M25 0v100M75 0v100M0 25h100M0 75h100" stroke="#ffffff" stroke-width="0.5" stroke-dasharray="4 4"/>
+        </pattern>
+    </defs>
+    <rect x="0" y="0" width="100%" height="100%" fill="url(#geometric-pattern)"/>
+</svg> 

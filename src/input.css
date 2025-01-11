@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-pattern {
+    background-size: 100px 100px;
+    background-repeat: repeat;
+    background-opacity: 0.1;
+} 
