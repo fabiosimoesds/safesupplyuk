@@ -750,12 +750,17 @@ video {
 
 .bg-primary {
   --tw-bg-opacity: 1;
-  background-color: rgb(26 95 122 / var(--tw-bg-opacity, 1));
+  background-color: rgb(22 163 74 / var(--tw-bg-opacity, 1));
 }
 
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+}
+
+.bg-gray-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(75 85 99 / var(--tw-bg-opacity, 1));
 }
 
 .bg-gradient-to-r {
@@ -777,13 +782,13 @@ video {
 }
 
 .from-primary\/80 {
-  --tw-gradient-from: rgb(26 95 122 / 0.8) var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(26 95 122 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-from: rgb(22 163 74 / 0.8) var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(22 163 74 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
 .to-primary\/60 {
-  --tw-gradient-to: rgb(26 95 122 / 0.6) var(--tw-gradient-to-position);
+  --tw-gradient-to: rgb(22 163 74 / 0.6) var(--tw-gradient-to-position);
 }
 
 .to-transparent {
@@ -876,7 +881,7 @@ video {
 
 .text-primary {
   --tw-text-opacity: 1;
-  color: rgb(26 95 122 / var(--tw-text-opacity, 1));
+  color: rgb(22 163 74 / var(--tw-text-opacity, 1));
 }
 
 .text-sky-500 {
@@ -948,12 +953,12 @@ video {
 
 .hover\:text-primary:hover {
   --tw-text-opacity: 1;
-  color: rgb(26 95 122 / var(--tw-text-opacity, 1));
+  color: rgb(22 163 74 / var(--tw-text-opacity, 1));
 }
 
 .hover\:text-secondary:hover {
   --tw-text-opacity: 1;
-  color: rgb(45 139 172 / var(--tw-text-opacity, 1));
+  color: rgb(67 56 202 / var(--tw-text-opacity, 1));
 }
 
 .hover\:shadow-xl:hover {

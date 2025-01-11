@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#1a5f7a',
-        secondary: '#2d8bac',
+        primary: '#16a34a',
+        secondary: '#4338ca',
       },
       backgroundImage: {
         'pattern': "url('../images/pattern.svg')",
